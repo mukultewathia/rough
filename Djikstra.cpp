@@ -13,7 +13,7 @@ vector<long long >  dijkstra(int source, int sz)
 	};
 
 	// added comments
-
+	// Hello mafia;
 	set< int, decltype(cmp) >  st(cmp);
 	dist[ source ] = 0;
 	for (int i = 1; i <= sz; i++ ) st.insert(i);
